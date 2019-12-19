@@ -1,0 +1,211 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Frutiger LT 45';
+}
+
+
+.heading {
+position: relative;
+width: 98%;
+text-align: center;
+color: white;
+margin-top: 15px;
+margin-bottom: 0;
+margin-left: auto;
+margin-right: auto;
+padding: 5px 0 5px 0;
+}
+
+.heading h1 {
+  background-color: #1f4684;
+  color: white;
+  font-style: bold;
+  font-size: 30px;
+  padding: 12px 24px;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 5px 3px 5px 4px rgba(159,159,160,0.7);
+}
+
+.logoimage{
+  position: absolute;
+  bottom: 35%;
+  left: 59%;
+  z-index: 99999;
+}
+.logoimage img {
+  width: 84px;
+  height: 60px;
+}
+
+.page_wrapper {
+  width: 98%;
+  margin: 0 auto 5px auto !important;
+  padding: 0 0 5px 0;
+  border-right: 3px solid #9f9fa0;
+  border-left: 1px solid #e5e7ea;
+  box-shadow: 5px 3px 5px 4px rgba(159,159,160,0.7);
+  overflow: hidden;
+}
+
+.map_row img {
+  width: 153px;
+  height: 153px;
+}
+.topspace {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 3px;
+}
+.map_col {
+  position: relative;
+  width: 153px;
+  height: 153px;
+  margin: 0;
+  padding: 0;  
+}
+.map_row {
+  position: relative;
+  display: flex;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.South-Africa img {
+  width: 76.5px;
+  height: 76.5px;
+}
+.split {
+  width: 76.5px;
+  height: 76.5px;
+}
+
+.UK_Land {
+  position: relative;
+}
+.UK_Land h2{
+  display: none;
+}
+
+.UK_Land:hover {
+  transform: scale(3);
+  border: 1px solid #66bb6a;
+  z-index: 1000;
+}
+
+.UK_Land:hover h2 {
+  position: absolute;
+  display: block;
+  font-size: 10px;
+  background-color: white;
+  border: 1px solid #66bb6a;
+}
+
+.uk {
+  position: absolute;
+  font-size: 18px;
+  color: #f57c00;
+  left: 18%;
+  top: 18%;
+}
+.uk h2{
+  width: 28px;
+  left: 30%;
+  bottom: 95%;
+}
+.eu {
+  position: absolute;
+  font-size: 18px;
+  color: #f57c00;
+  left: 41%;
+  top: 23%;
+}
+.eu h2 {
+  width: 28px;
+  left: 100%;
+  top: 0;
+}
+
+.South-Africa{
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+
+.SA_Land {
+  position: relative;
+}
+.SA_Land h2{
+  display: none;
+}
+
+.SA_Land:hover {
+  transform: scale(3);
+  border: 1px solid #66bb6a;
+  z-index: 1000;
+  font-size: 10px;
+  bottom: 30%;
+}
+
+.SA_Land:hover h2 {
+  position: absolute;
+  display: block;
+  background-color: white;
+  border: 1px solid #66bb6a;
+  font-size: 10px;
+}
+
+.SA_Land:hover > .revert {
+  transform: scale(calc(1/2));
+}
+
+.smallertext {
+  font-size: 5px !important;
+}
+
+
+
+.nc {
+  position: absolute;
+  font-size: 18px;
+  color: #f57c00;
+  left: 25%;
+  top: 25%;
+}
+.nc h2 {
+  width: 40px;
+  left: 75%;
+  top: 80%;
+}
+.wc {
+  position: absolute;
+  font-size: 18px;
+  color: #f57c00;
+  left: 20%;
+  top: 55%;
+}
+.wc h2 {
+  left: 75%;
+  top: 80%;
+  width: 35px;
+}
+.nam {
+  position: absolute;
+  font-size: 18px;
+  color: #f57c00;
+  left: 5%;
+  top: 5%;
+}
+.nam h2 {
+  width: 25px;
+  top: 20%;
+  left: 105%;
+}
